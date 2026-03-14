@@ -1,6 +1,5 @@
-//make sure to change the emojies and name from StumblePriz, this was used for my personal project
-
-
+/*make sure to change the emojies and name from StumblePriz, this was used for my personal project
+also, make sure to change this (index.js) with whatever webhook you want to push, from the "otherwebhooks" folder */
 
 const WEBHOOK_URI = "YOUR_WEBHOOK_HERE";
 
