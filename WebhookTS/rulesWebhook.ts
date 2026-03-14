@@ -1,7 +1,7 @@
 /* proxqy00: make sure to replace webhook with ur own link or api and hex color edit from [accent_color: parseInt("000000", 16)], 
 make so to not add # */
 
-const WEBHOOK_URI = "https://discord.com/api/webhooks/1481751516854485047/HA7BnUqeM2X8PJjgqvMagdEEamDndUJkFiYFQvVJ8mdr-wKBHd6g5hPbqO8oJjgoIPG-";
+const WEBHOOK_URI = "";
 
 async function postJson(url: string, body: any) {
   const res = await fetch(url, {
@@ -38,14 +38,14 @@ async function main() {
               {
                 type: 10,
                 content:
-                  `## **-FKX- Touch Football Rules**\n` +
+                  `## **<Your Server Name> Rules**\n` +
                   `  <:BF:1476248719966867609> **Breaking any rules may result in a permanent ban from our Discord server, and ingame as well.**`,
               },
             ],
             accessory: {
               type: 11,
               media: {
-                url: "https://i.imgur.com/90VHNVX.png",
+                url: "your image url/server icon",
               },
             },
           },
