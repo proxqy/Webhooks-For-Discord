@@ -1,0 +1,17 @@
+const WEBHOOK_URI = "https://discord.com/api/webhooks/1473049119055417467/xJ8-lMbof4l5QXtWrz-a5UaF1k2UX1sPhkM-_ctfCZJKKbvzo0E1MoiwVE2opYz4Rtz6";
+
+async function postJson(url: string, body: any) {
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  const text = await res.text();
+  console.log("STATUS:", res.status);
+  console.log(text);
+  return { ok: res.ok, status: res.status, text };
+}
+
+unfinished ---
+
+proxqy00
